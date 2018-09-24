@@ -212,6 +212,7 @@ p {
   font-size: 0.6rem;
   display: inline-block;
   padding: 0.1rem 1rem;
+  margin: 0.2rem 0;
   background-color: transparent;
 }
 #container .home-nav-item a:hover {
@@ -525,6 +526,9 @@ p {
   width: 9rem;
   height: 5.6rem;
   overflow: hidden;
+}
+#container .home-child-save {
+  cursor: pointer;
 }
 #container .home-child-save .laud {
   width: 0.7rem;
@@ -983,9 +987,175 @@ p {
 }
 .message .message-del {
   float: right;
-  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  font-size: 0.6rem;
+  padding: 0.1rem 0.3rem;
   border-radius: 0.2rem;
-  border: 0.0333rem solid #CECECE;
+  border: 0.0333rem solid #9d3a23;
+  color: #9d3a23;
+  margin: 0.2rem 0.5rem 0;
+}
+.message .my-message-item {
+  position: relative;
+  padding-bottom: 1rem;
+  margin-right: 0.5rem;
+}
+.message .my-message-item .mt-message-time {
+  margin-left: 2rem;
+}
+.message .my-message-item div {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.message .reply-read {
+  cursor: pointer;
+  width: 0.666rem;
+  height: 0.6rem;
+  display: inline-block;
+  background: url("../img/read.png") no-repeat;
+  -moz-background-size: 100%;
+  background-size: 100%;
+  margin-right: 0.2rem;
+  vertical-align: bottom;
+}
+.message .message-reply {
+  display: inline-block;
+}
+.message .message-reply span {
+  vertical-align: middle !important;
+}
+.message #my-score-score {
+  text-align: center;
+}
+.message .my-score-item {
+  display: inline-block;
+  overflow: hidden;
+}
+.message .my-score-item .my-score-head {
+  text-align: left;
+  margin: 0.5rem 0;
+}
+.message .my-score-item .my-score-group {
+  overflow: hidden;
+  margin-top: 0.5rem;
+  border: 0.033rem solid #CECECE;
+}
+.message .my-score-item .my-score-group div {
+  float: left;
+  background-color: #CECECE;
+  padding: 0.3rem 1rem;
+}
+.message .my-score-item .score-group-name {
+  width: 2rem;
+  white-space: nowrap;
+  display: inline-block;
+  overflow: hidden;
+}
+.message .my-score-item .score-jy,
+.message .my-score-item .score-gold,
+.message .my-score-item .score-rmb {
+  width: 0.73rem;
+  height: 0.8rem;
+  display: inline-block;
+  margin-right: 0.2rem;
+}
+.message .my-score-item .score-jy {
+  background: url("../img/jy.png") no-repeat;
+  -moz-background-size: 100%;
+  background-size: 100%;
+}
+.message .my-score-item .score-gold {
+  background: url("../img/gold.png") no-repeat;
+  -moz-background-size: 100%;
+  background-size: 100%;
+}
+.message .my-score-item .score-rmb {
+  background: url("../img/rmb.png") no-repeat;
+  -moz-background-size: 100%;
+  background-size: 100%;
+}
+.message .my-score-item p {
+  width: 15rem;
+  float: left;
+  margin-bottom: 0;
+  padding: 0.2rem;
+  text-align: left;
+  line-height: 1.3rem;
+}
+.message #my-score-record {
+  padding-top: 1rem;
+}
+.message #my-score-record .table {
+  margin: 0 auto;
+  text-align: center;
+}
+.message .score-record th {
+  text-align: center;
+  border-bottom: 0.033rem solid transparent;
+}
+.message .deal-wrap {
+  width: 20rem;
+  overflow: hidden;
+  margin-top: 1rem;
+  padding: 0.2rem 1.5rem;
+  background-color: #CECECE;
+  border-radius: 0.2rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.message .deal-title {
+  font-size: 1rem;
+  color: #9d3a23;
+}
+.message .deal-hint {
+  color: #222222;
+  font-size: 0.6rem;
+  overflow: hidden;
+}
+.message .deal-hint span {
+  color: #9d3a23;
+}
+.message .deal-total {
+  overflow: hidden;
+}
+.message .deal-total span {
+  color: #9d3a23;
+}
+.message .deal-intro {
+  overflow: hidden;
+  margin: 0.3rem 0;
+}
+.message .deal-intro input {
+  width: 18rem!important;
+  padding: 0.5rem 0.2rem;
+}
+.message .deal-btn {
+  float: right;
+  padding: 0.2rem 0.5rem;
+  background-color: #9d3a23;
+  color: #FFFFFF;
+  font-size: 0.8rem;
+  border-radius: 0.2rem;
+}
+.modal-dialog .modal-content {
+  background: #ffffff url("../img/house.png") bottom no-repeat;
+  -moz-background-size: 100%;
+  background-size: 100%;
+}
+.modal-dialog .modal-header {
+  border-bottom: 0.0333rem solid transparent;
+  overflow: hidden;
+  text-align: center;
+}
+.modal-dialog .modal-header div {
+  margin: 1rem;
+}
+.modal-dialog .modal-title {
+  margin: 1rem 0 0;
+}
+.modal-dialog .modal-footer {
+  border-top: 1px solid transparent;
 }
 body::-webkit-scrollbar {
   /*滚动条整体样式*/

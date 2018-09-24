@@ -40,7 +40,7 @@
             <div class="nav-user col-md-3 text-center" >
                 <div class="no-log"><a  href="#"><span class="log-user"></span>登录</a></div>
                 <div class="log">
-                    <a href="#"><span class="log-message"></span>消息</a>
+                    <a href="message.html"><span class="log-message"></span>消息</a>
                     <a href="#"><span class="log-user"></span>巴林石</a>
                     <a href="#"><span class="log-out"></span>退出</a>
                 </div>
@@ -79,7 +79,7 @@
                         <div class="home-child-content">
                             <p>即日起，最美巴林石论坛上线，广大石友可以再次谈石论道</p>
                             <img src="../img/child-img.png" />
-                            <div class="home-child-save">
+                            <div class="home-child-save" data-toggle="modal" data-target="#myhouse">
                                 <span class="laud"></span>
                                 <span>收藏</span>90
                             </div>
@@ -218,6 +218,20 @@
                         </div>
                         <p>欢迎关注巴林石官网微信公众号</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myhouse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="modal-title" id="myModalLabel">帖子收藏提示</p>
+                    <div>登陆后才可以收藏帖子！点击<a href="#" class="house-btn">确定</a>登录</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">确定</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
                 </div>
             </div>
         </div>
