@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>巴林论坛 - 首页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" src="../js/rem.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" >
+    <link rel="icon" sizes="any" href="//www.baidu.com/img/baidu_85beaf5496f291521eb75ba38eacbd87.svg">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="col-md-1"></div>
+        <div class="navbar-header" >
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html">
+                <span class="forum-icon"></span>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="stone-info.html">时石资讯</a></li>
+                <li><a href="taste.html">品味巴林</a></li>
+                <li><a href="culture.html">巴林文化</a></li>
+                <li><a href="talk.html">谈石论到</a></li>
+                <li><a href="carve.html">雕刻篆刻</a></li>
+                <li><a href="navice.html">新手交流</a></li>
+                <li><a href="complaint.html">投诉建议</a></li>
+                <li><a href="notice.html">论坛公告</a></li>
+            </ul>
+            <div class="nav-user col-md-3 text-center" >
+                <div style="display: inline-block;" class="no-log log-active"><a  href="login.html"><span class="log-user log-user-active"></span>登录</a></div>
+                <div style="display: none;" class="log">
+                    <a href="message.html"><span class="log-message"></span>消息</a>
+                    <a href="user-page.html"><span class="log-user"></span>巴林石</a>
+                    <a href="#"><span class="log-out"></span>退出</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="main-body">
+    <div class="log-bg"></div>
+    <div id="container" class="log-page">
+        <div class="modal-content log-modal" id="log-modal">
+            <a class="close modal-close" href="../index.html"><span aria-hidden="true">&times;</span></a>
+            <div class="nav nav-tabs">
+                <div class="log-page-active log-nav">
+                    <a href="#login" data-toggle="tab">登录</a>
+                </div>
+                <div class="log-nav">
+                    <a href="#register" data-toggle="tab">注册</a>
+                </div>
+            </div>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane in active" id="login">
+                    <div class="log-item">
+                        <span class="log-icon user-icon"></span>
+                        <input type="text" placeholder="请输入用户名" />
+                    </div>
+                    <div class="log-item">
+                        <span class="log-icon pass-icon"></span>
+                        <input type="password" placeholder="请输入密码" />
+                    </div>
+                    <div class="log-login">登录</div>
+                    <a class="log-forget" data-toggle="tab" href="#forget">忘记密码？</a>
+                </div>
+                <div class="tab-pane" id="register">
+                    <div class="log-item">
+                        <span class="log-icon email-icon"></span>
+                        <input type="email" placeholder="邮箱" />
+                    </div>
+                    <div class="log-item">
+                        <span class="log-icon user-icon"></span>
+                        <input type="text" placeholder="用户名" />
+                    </div>
+                    <div class="log-item">
+                        <span class="log-icon pass-icon"></span>
+                        <input type="password" placeholder="密码" />
+                    </div>
+                    <div class="log-item">
+                        <span class="log-icon pass-icon"></span>
+                        <input type="password" placeholder="再次输入密码" />
+                    </div>
+                    <div class="log-item">
+                        <span class="log-icon v-code-icon"></span>
+                        <input type="text" placeholder="验证码" />
+                    </div>
+                    <div class="log-login">注册</div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-content log-modal" id="forget-modal">
+            <div id="reset-tab" class="tab-content">
+                <a class="close modal-close" id="forget-close"><span aria-hidden="true">&times;</span></a>
+                <div class="nav nav-tabs">
+                    <div class="forget-head">
+                        重设密码
+                    </div>
+                </div>
+                <div class="tab-pane" id="forget">
+                    <div class="log-item">
+                        <span class="log-icon email-icon"></span>
+                        <input type="email" placeholder="邮箱" />
+                    </div>
+                    <div class="forget-send">
+                        <div class="log-item send-v-code">
+                            <span class="log-icon v-code-icon"></span>
+                            <input type="text" placeholder="验证码" />
+                        </div>
+                        <div class="forget-send-btn">发送验证码</div>
+                    </div>
+                    <div class="forget-next"><a href="#reset-pass" data-toggle="tab">下一步</a></div>
+                </div>
+                <div class="tab-pane" id="reset-pass">
+                    <div class="log-item">
+                        <span class="log-icon email-icon"></span>
+                        <input type="email" placeholder="邮箱" />
+                    </div>
+                    <div class="log-item">
+                        <span class="log-icon pass-icon"></span>
+                        <input type="password" placeholder="新密码" />
+                    </div>
+                    <div class="log-item">
+                        <span class="log-icon pass-icon"></span>
+                        <input type="password" placeholder="重复新密码" />
+                    </div>
+                    <div class="forget-next"><a href="login.html">下一步</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div id="footer">
+        <div>Powered by Xiuno BBS4.0.4	巴林右旗巴林石矿业有限公司</div>
+        <div>ICP备案号：蒙ICP备18004169号-1</div>
+    </div>
+</footer>
+</body>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+</html>

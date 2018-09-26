@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>巴林论坛 - 消息</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" src="../js/rem.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" >
+    <link rel="icon" sizes="any" href="//www.baidu.com/img/baidu_85beaf5496f291521eb75ba38eacbd87.svg">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="col-md-1"></div>
+        <div class="navbar-header" >
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html">
+                <span class="forum-icon"></span>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="stone-info.html">时石资讯</a></li>
+                <li><a href="taste.html">品味巴林</a></li>
+                <li><a href="culture.html">巴林文化</a></li>
+                <li><a href="talk.html">谈石论到</a></li>
+                <li><a href="carve.html">雕刻篆刻</a></li>
+                <li><a href="navice.html">新手交流</a></li>
+                <li><a href="complaint.html">投诉建议</a></li>
+                <li><a href="notice.html">论坛公告</a></li>
+            </ul>
+            <div class="nav-user col-md-3 text-center" >
+                <div class="no-log"><a  href="login.html"><span class="log-user"></span>登录</a></div>
+                <div class="log">
+                    <a class="log-active" href="message.html"><span class="log-message log-message-active"></span>消息</a>
+                    <a href="user-page.html"><span class="log-user"></span>巴林石</a>
+                    <a href="#"><span class="log-out"></span>退出</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="message">
+    <div class="message-bj"></div>
+    <div id="container">
+        <div class="message-top">
+            <div class="message-nav">
+                <div class="message-nav-bg"><img src="../img/message-nav-bg.png" /></div>
+                <div class="message-user">
+                    <div class="message-user-img"></div>
+                    <span class="message-img-add"></span>
+                    <p>xxx巴林石</p>
+                </div>
+            </div>
+        </div>
+        <div class="message-top-list">
+            <div class="home-nav-item">
+                <a href="user-page.html">个人资料</a>
+            </div>
+            <div class="home-nav-item">
+                <a href="message-forum.html">论坛帖子</a>
+            </div>
+            <div class="home-nav-item">
+                <a href="message.html">消息</a>
+            </div>
+            <div class="home-nav-item home-nav-active">
+                <a href="#my-score" data-toggle="tab">积分</a>
+            </div>
+        </div>
+        <div class="message-content">
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane in active" id="my-score">
+                    <div class="home-nav-item message-nav-active">
+                        <a href="#my-score-score" data-toggle="tab">积分</a>
+                    </div>
+                    <div class="home-nav-item">
+                        <a href="#my-score-deal" data-toggle="tab">交易</a>
+                    </div>
+                    <div class="home-nav-item">
+                        <a href="#my-score-record" data-toggle="tab">记录</a>
+                    </div>
+                </div>
+            </div>
+            <div id="my-content" class="my-content tab-content">
+                <div class="tab-pane in active" id="my-score-score">
+                    <div class="my-score-item">
+                        <div class="my-score-head">
+                            <span>用户组:&nbsp;</span>
+                            <span>英勇黄铜V</span>
+                        </div>
+                        <div class="my-score-group">
+                            <div>
+                                <span class="score-jy"></span>
+                                <span class="score-group-name">经验</span>
+                            </div>
+                            <p class="score-jy-val">100</p>
+                        </div>
+                        <div class="my-score-group">
+                            <div>
+                                <span class="score-gold"></span>
+                                <span class="score-group-name">金币</span>
+                            </div>
+                            <p class="score-jy-val">100</p>
+                        </div>
+                        <div class="my-score-group">
+                            <div>
+                                <span class="score-rmb"></span>
+                                <span class="score-group-name">人民币</span>
+                            </div>
+                            <p class="score-jy-val">100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="my-score-deal">
+                    <div class="deal-wrap">
+                        <p class="deal-title">兑换</p>
+                        <div class="deal-hint">
+                            支持<span>人民币（单位:&nbsp;分）</span>, 兑换为<span>金币</span>。</span>
+                        </div>
+                        <div class="deal-intro">
+                            <input type="text" placeholder="金币" />
+                        </div>
+                        <div class="deal-total">
+                            兑换<span>0</span>金币, 需要消耗<span>0</span>人民币</span>
+                        </div>
+                        <div class="deal-btn">兑换</div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="my-score-record">
+                    <table class="table">
+                        <thead>
+                        <tr class="score-record">
+                            <th>时间</th>
+                            <th>类型</th>
+                            <th>积分</th>
+                            <th>记录</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>2018-09-2</td>
+                            <td>......</td>
+                            <td>12</td>
+                            <td>..</td>
+                        </tr>
+                        <tr>
+                            <td>2018-09-3</td>
+                            <td>......</td>
+                            <td>12</td>
+                            <td>.......</td>
+                        </tr>
+                        <tr>
+                            <td>2018-09-2</td>
+                            <td>..</td>
+                            <td>12</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>2018-09-3</td>
+                            <td>......</td>
+                            <td>12</td>
+                            <td>.......</td>
+                        </tr>
+                        <tr>
+                            <td>2018-09-2</td>
+                            <td>..</td>
+                            <td>12</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>2018-09-3</td>
+                            <td>......</td>
+                            <td>12</td>
+                            <td>.......</td>
+                        </tr>
+                        <tr>
+                            <td>2018-09-2</td>
+                            <td>..</td>
+                            <td>12</td>
+                            <td>...</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div id="footer">
+        <div>Powered by Xiuno BBS4.0.4	巴林右旗巴林石矿业有限公司</div>
+        <div>ICP备案号：蒙ICP备18004169号-1</div>
+    </div>
+</footer>
+</body>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+</html>

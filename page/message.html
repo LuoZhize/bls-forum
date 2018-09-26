@@ -38,10 +38,10 @@
                 <li><a href="notice.html">论坛公告</a></li>
             </ul>
             <div class="nav-user col-md-3 text-center" >
-                <div class="no-log"><a  href="#"><span class="log-user"></span>登录</a></div>
+                <div class="no-log"><a  href="login.html"><span class="log-user"></span>登录</a></div>
                 <div class="log">
-                    <a class="log-active" href="message.html"><span class="log-message"></span>消息</a>
-                    <a href="#"><span class="log-user"></span>巴林石</a>
+                    <a class="log-active" href="message.html"><span class="log-message log-message-active"></span>消息</a>
+                    <a href="user-page.html"><span class="log-user"></span>巴林石</a>
                     <a href="#"><span class="log-out"></span>退出</a>
                 </div>
             </div>
@@ -62,47 +62,22 @@
             </div>
         </div>
         <div class="message-top-list">
-            <div class="home-nav-item home-nav-active">
-                <a href="#my-info" data-toggle="tab">个人资料</a>
+            <div class="home-nav-item">
+                <a href="user-page.html">个人资料</a>
             </div>
             <div class="home-nav-item">
-                <a href="#my-forum" data-toggle="tab">论坛帖子</a>
+                <a href="message-forum.html">论坛帖子</a>
             </div>
-            <div class="home-nav-item">
+            <div class="home-nav-item  home-nav-active">
                 <a href="#my-message" data-toggle="tab">消息</a>
             </div>
             <div class="home-nav-item">
-                <a href="#my-score" data-toggle="tab">积分</a>
+                <a href="message-score.html">积分</a>
             </div>
         </div>
         <div class="message-content">
             <div id="myTabContent" class="tab-content">
-                <div class="tab-pane in active" id="my-info">
-                    <div class="home-nav-item message-nav-active">
-                        <a href="#my-info-basic" data-toggle="tab">基本资料</a>
-                    </div>
-                    <div class="home-nav-item">
-                        <a href="#my-info-pass" data-toggle="tab">密码</a>
-                    </div>
-                    <div class="home-nav-item">
-                        <a href="#my-info-email" data-toggle="tab">邮箱</a>
-                    </div>
-                </div>
-                <div class="tab-pane" id="my-forum">
-                    <div class="home-nav-item message-nav-active">
-                        <a href="#my-forum-theme" data-toggle="tab">主题（2）</a>
-                    </div>
-                    <div class="home-nav-item">
-                        <a href="#my-forum-keep" data-toggle="tab">收藏（4）</a>
-                    </div>
-                    <div class="home-nav-item">
-                        <a href="#my-forum-best" data-toggle="tab">精华（1）</a>
-                    </div>
-                    <div class="home-nav-item">
-                        <a href="#my-forum-post" data-toggle="tab">帖子（3）</a>
-                    </div>
-                </div>
-                <div class="tab-pane" id="my-message">
+                <div class="tab-pane in active" id="my-message">
                     <div class="home-nav-item message-nav-active">
                         <a href="#my-message-all" data-toggle="tab">全部</a>
                     </div>
@@ -127,370 +102,19 @@
                     <div class="home-nav-item">
                         <a href="#my-message-other" data-toggle="tab">其他</a>
                     </div>
-                    <div class="message-del">
+                    <div class="message-del message-all-del">
                         删除本页消息
                     </div>
-                    <div class="message-del">
+                    <div class="message-del message-all-read">
                         全部已读
-                    </div>
-                </div>
-                <div class="tab-pane" id="my-score">
-                    <div class="home-nav-item message-nav-active">
-                        <a href="#my-score-score" data-toggle="tab">积分</a>
-                    </div>
-                    <div class="home-nav-item">
-                        <a href="#my-score-deal" data-toggle="tab">交易</a>
-                    </div>
-                    <div class="home-nav-item">
-                        <a href="#my-score-record" data-toggle="tab">记录</a>
                     </div>
                 </div>
             </div>
             <div id="my-content" class="my-content tab-content">
-                <div class="tab-pane in active" id="my-info-basic">
-                    <table class="table">
-                        <tbody>
-                            <tr>
-                                <td>主题数：<span>0</span></td>
-                                <td>用户组：<span>0</span></td>
-                            </tr>
-                            <tr>
-                                <td>帖子数：<span>01</span></td>
-                                <td>创建时间：<span>2018-08-30</span></td>
-                            </tr>
-                            <tr>
-                                <td>收藏数：<span>10</span></td>
-                                <td>最后登录时间：<span>2018-9-1</span></td>
-                            </tr>
-                            <tr>
-                                <td>精华数：<span>1</span></td>
-                                <td>邮箱：<span>122345689@163.com</span></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="tab-pane" id="my-info-pass">
-                    <div class="change-pass">
-                        <div class="change-item">
-                            <span class="pass-icon"></span>
-                            <input type="password" placeholder="旧密码" />
-                        </div>
-                        <div class="change-item">
-                            <span class="pass-icon"></span>
-                            <input type="password" placeholder="新密码" />
-                        </div>
-                        <div class="change-item">
-                            <span class="pass-icon"></span>
-                            <input type="password" placeholder="重复新密码" />
-                        </div>
-                    </div>
-                    <div class="btn change-pass-btn">修改密码</div>
-                </div>
-                <div class="tab-pane" id="my-info-email">
-                    <div class="change-pass set-email">
-                        <div class="change-item">
-                            <span class="pass-icon"></span>
-                            <input type="password" placeholder="123456879@163.com" />
-                        </div>
-                        <div class="change-item">
-                            <span class="pass-icon"></span>
-                            <input type="password" placeholder="未认证" />
-                        </div>
-                    </div>
-                    <div class="btn set-email-btn">设置邮箱</div>
-                </div>
-                <div class="tab-pane" id="my-forum-theme">
-                    <ul class="home-newest-list">
-                        <li class="home-newest-item">
-                            <a href="detail.html">
-                                <span class="home-logo"></span>
-                                <div class="home-item-title">
-                                    <span>[论坛公告]</span><p>最美巴林石上线了</p>
-                                </div>
-                                <div class="home-item-time">
-                                    <span>安华巴林石&nbsp;</span>
-                                    <span>&nbsp;20小时</span>
-                                    <span class="views-num"></span>63
-                                    <span class="answer"></span>&nbsp;0
-                                </div>
-                                <div class="reply-fun">
-                                    <span class="reply-del"></span>
-                                    <span>移除主题</span>
-                                </div>
-                            </a>
-                            <p class="list-cut"></p>
-                        </li>
-                        <li class="home-newest-item">
-                            <a href="detail.html">
-                                <span class="home-logo"></span>
-                                <div class="home-item-title">
-                                    <span>[论坛公告]</span><p>最美巴林石上线了</p>
-                                </div>
-                                <div class="home-item-time">
-                                    <span>安华巴林石&nbsp;</span>
-                                    <span>&nbsp;20小时</span>
-                                    <span class="views-num"></span>63
-                                    <span class="answer"></span>&nbsp;0
-                                </div>
-                                <div class="reply-fun">
-                                    <span class="reply-del"></span>
-                                    <span>移除主题</span>
-                                </div>
-                            </a>
-                            <p class="list-cut"></p>
-                        </li>
-                        <li class="home-newest-item">
-                            <a href="detail.html">
-                                <span class="home-logo"></span>
-                                <div class="home-item-title">
-                                    <span>[论坛公告]</span><p>最美巴林石上线了</p>
-                                </div>
-                                <div class="home-item-time">
-                                    <span>安华巴林石&nbsp;</span>
-                                    <span>&nbsp;20小时</span>
-                                    <span class="views-num"></span>63
-                                    <span class="answer"></span>&nbsp;0
-                                </div>
-                                <div class="reply-fun">
-                                    <span class="reply-del"></span>
-                                    <span>移除主题</span>
-                                </div>
-                            </a>
-                            <p class="list-cut"></p>
-                        </li>
-                    </ul>
-                    <div class="pagination-style">
-                        <ul class="pagination pagination-lg">
-                            <li><a href="#"></a></li>
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="tab-pane" id="my-forum-keep">
-                    <ul class="home-newest-list">
-                        <li class="home-newest-item">
-                            <a href="detail.html">
-                                <span class="home-logo"></span>
-                                <div class="home-item-title">
-                                    <span>[论坛公告]</span><p>最美巴林石上线了</p>
-                                </div>
-                                <div class="home-item-time">
-                                    <span>安华巴林石&nbsp;</span>
-                                    <span>&nbsp;20小时</span>
-                                    <span class="views-num"></span>63
-                                    <span class="answer"></span>&nbsp;0
-                                </div>
-                                <div class="reply-fun">
-                                    <span class="reply-del"></span>
-                                    <span>移除收藏</span>
-                                </div>
-                            </a>
-                            <p class="list-cut"></p>
-                        </li>
-                        <li class="home-newest-item">
-                            <a href="detail.html">
-                                <span class="home-logo"></span>
-                                <div class="home-item-title">
-                                    <span>[论坛公告]</span><p>最美巴林石上线了</p>
-                                </div>
-                                <div class="home-item-time">
-                                    <span>安华巴林石&nbsp;</span>
-                                    <span>&nbsp;20小时</span>
-                                    <span class="views-num"></span>63
-                                    <span class="answer"></span>&nbsp;0
-                                </div>
-                                <div class="reply-fun">
-                                    <span class="reply-del"></span>
-                                    <span>移除收藏</span>
-                                </div>
-                            </a>
-                            <p class="list-cut"></p>
-                        </li>
-                        <li class="home-newest-item">
-                            <a href="detail.html">
-                                <span class="home-logo"></span>
-                                <div class="home-item-title">
-                                    <span>[论坛公告]</span><p>最美巴林石上线了</p>
-                                </div>
-                                <div class="home-item-time">
-                                    <span>安华巴林石&nbsp;</span>
-                                    <span>&nbsp;20小时</span>
-                                    <span class="views-num"></span>63
-                                    <span class="answer"></span>&nbsp;0
-                                </div>
-                                <div class="reply-fun">
-                                    <span class="reply-del"></span>
-                                    <span>移除收藏</span>
-                                </div>
-                            </a>
-                            <p class="list-cut"></p>
-                        </li>
-                    </ul>
-                    <div class="pagination-style">
-                        <ul class="pagination pagination-lg">
-                            <li><a href="#"></a></li>
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="tab-pane" id="my-forum-best">
-                    <ul class="home-newest-list">
-                        <li class="home-newest-item">
-                            <a href="detail.html">
-                                <span class="home-logo"></span>
-                                <div class="home-item-title">
-                                    <span>[论坛公告]</span><p>最美巴林石上线了</p>
-                                </div>
-                                <div class="home-item-time">
-                                    <span>安华巴林石&nbsp;</span>
-                                    <span>&nbsp;20小时</span>
-                                    <span class="views-num"></span>63
-                                    <span class="answer"></span>&nbsp;0
-                                </div>
-                                <div class="reply-fun">
-                                    <span class="reply-del"></span>
-                                    <span>移除精华</span>
-                                </div>
-                            </a>
-                            <p class="list-cut"></p>
-                        </li>
-                        <li class="home-newest-item">
-                            <a href="detail.html">
-                                <span class="home-logo"></span>
-                                <div class="home-item-title">
-                                    <span>[论坛公告]</span><p>最美巴林石上线了</p>
-                                </div>
-                                <div class="home-item-time">
-                                    <span>安华巴林石&nbsp;</span>
-                                    <span>&nbsp;20小时</span>
-                                    <span class="views-num"></span>63
-                                    <span class="answer"></span>&nbsp;0
-                                </div>
-                                <div class="reply-fun">
-                                    <span class="reply-del"></span>
-                                    <span>移除精华</span>
-                                </div>
-                            </a>
-                            <p class="list-cut"></p>
-                        </li>
-                        <li class="home-newest-item">
-                            <a href="detail.html">
-                                <span class="home-logo"></span>
-                                <div class="home-item-title">
-                                    <span>[论坛公告]</span><p>最美巴林石上线了</p>
-                                </div>
-                                <div class="home-item-time">
-                                    <span>安华巴林石&nbsp;</span>
-                                    <span>&nbsp;20小时</span>
-                                    <span class="views-num"></span>63
-                                    <span class="answer"></span>&nbsp;0
-                                </div>
-                                <div class="reply-fun">
-                                    <span class="reply-del"></span>
-                                    <span>移除精华</span>
-                                </div>
-                            </a>
-                            <p class="list-cut"></p>
-                        </li>
-                    </ul>
-                    <div class="pagination-style">
-                        <ul class="pagination pagination-lg">
-                            <li><a href="#"></a></li>
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="tab-pane" id="my-forum-post">
-                    <ul class="home-newest-list">
-                        <li class="home-newest-item">
-                            <a href="detail.html">
-                                <span class="home-logo"></span>
-                                <div class="home-item-title">
-                                    <span>[论坛公告]</span><p>最美巴林石上线了</p>
-                                </div>
-                                <div class="home-item-time">
-                                    <span>安华巴林石&nbsp;</span>
-                                    <span>&nbsp;20小时</span>
-                                    <span class="views-num"></span>63
-                                    <span class="answer"></span>&nbsp;0
-                                </div>
-                                <div class="reply-fun">
-                                    <a href="reply-edit.html" class="reply-edit"></a>
-                                    <span class="reply-del"></span>
-                                </div>
-                            </a>
-                            <p class="list-cut"></p>
-                        </li>
-                        <li class="home-newest-item">
-                            <a href="detail.html">
-                                <span class="home-logo"></span>
-                                <div class="home-item-title">
-                                    <span>[论坛公告]</span><p>最美巴林石上线了</p>
-                                </div>
-                                <div class="home-item-time">
-                                    <span>安华巴林石&nbsp;</span>
-                                    <span>&nbsp;20小时</span>
-                                    <span class="views-num"></span>63
-                                    <span class="answer"></span>&nbsp;0
-                                </div>
-                                <div class="reply-fun">
-                                    <a href="reply-edit.html" class="reply-edit"></a>
-                                    <span class="reply-del"></span>
-                                </div>
-                            </a>
-                            <p class="list-cut"></p>
-                        </li>
-                        <li class="home-newest-item">
-                            <a href="detail.html">
-                                <span class="home-logo"></span>
-                                <div class="home-item-title">
-                                    <span>[论坛公告]</span><p>最美巴林石上线了</p>
-                                </div>
-                                <div class="home-item-time">
-                                    <span>安华巴林石&nbsp;</span>
-                                    <span>&nbsp;20小时</span>
-                                    <span class="views-num"></span>63
-                                    <span class="answer"></span>&nbsp;0
-                                </div>
-                                <div class="reply-fun">
-                                    <a href="reply-edit.html" class="reply-edit"></a>
-                                    <span class="reply-del"></span>
-                                </div>
-                            </a>
-                            <p class="list-cut"></p>
-                        </li>
-                    </ul>
-                    <div class="pagination-style">
-                        <ul class="pagination pagination-lg">
-                            <li><a href="#"></a></li>
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="tab-pane" id="my-message-all">
+                <div class="tab-pane in active" id="my-message-all">
                     <div class="my-message-item">
                     <span class="home-logo"></span>
-                    <div class="home-item-title">
+                    <a href="detail.html" class="home-item-title">
                         <span>xxx巴林石</span><span class="mt-message-time">1分钟前</span>
                         <div>
                             <p>
@@ -499,13 +123,13 @@
                                 “中国四大印石”
                             </p>
                         </div>
-                    </div>
+                    </a>
                     <div class="reply-fun">
-                        <div class="message-reply">
+                        <div class="message-reply message-item-read">
                             <span class="reply-read"></span>
                             <span>标记已读</span>
                         </div>
-                        <div class="message-reply">
+                        <div class="message-reply message-item-del">
                             <span class="reply-del"></span>
                             <span>删除</span>
                         </div>
@@ -513,7 +137,7 @@
                 </div>
                     <div class="my-message-item">
                         <span class="home-logo"></span>
-                        <div class="home-item-title">
+                        <a href="detail.html" class="home-item-title">
                             <span>xxx巴林石</span><span class="mt-message-time">1分钟前</span>
                             <div>
                                 <p>
@@ -522,13 +146,13 @@
                                     “中国四大印石”
                                 </p>
                             </div>
-                        </div>
+                        </a>
                         <div class="reply-fun">
-                            <div class="message-reply">
+                            <div class="message-reply message-item-read">
                                 <span class="reply-read"></span>
                                 <span>标记已读</span>
                             </div>
-                            <div class="message-reply">
+                            <div class="message-reply message-item-del">
                                 <span class="reply-del"></span>
                                 <span>删除</span>
                             </div>
@@ -536,7 +160,7 @@
                     </div>
                     <div class="my-message-item">
                         <span class="home-logo"></span>
-                        <div class="home-item-title">
+                        <a href="detail.html" class="home-item-title">
                             <span>xxx巴林石</span><span class="mt-message-time">5分钟前</span>
                             <div>
                                 <p>
@@ -545,13 +169,13 @@
                                     “中国四大印石”
                                 </p>
                             </div>
-                        </div>
+                        </a>
                         <div class="reply-fun">
-                            <div class="message-reply">
+                            <div class="message-reply message-item-read">
                                 <span class="reply-read"></span>
                                 <span>标记已读</span>
                             </div>
-                            <div class="message-reply">
+                            <div class="message-reply message-item-del">
                                 <span class="reply-del"></span>
                                 <span>删除</span>
                             </div>
@@ -561,7 +185,7 @@
                 <div class="tab-pane" id="my-message-comment">
                     <div class="my-message-item">
                         <span class="home-logo"></span>
-                        <div class="home-item-title">
+                        <a href="detail.html" class="home-item-title">
                             <span>xxx巴林石</span><span class="mt-message-time">1分钟前</span>
                             <div>
                                 <p>
@@ -570,13 +194,13 @@
                                     “中国四大印石”
                                 </p>
                             </div>
-                        </div>
+                        </a>
                         <div class="reply-fun">
-                            <div class="message-reply">
+                            <div class="message-reply message-item-read">
                                 <span class="reply-read"></span>
                                 <span>标记已读</span>
                             </div>
-                            <div class="message-reply">
+                            <div class="message-reply message-item-del">
                                 <span class="reply-del"></span>
                                 <span>删除</span>
                             </div>
@@ -586,7 +210,7 @@
                 <div class="tab-pane" id="my-message-msg">
                     <div class="my-message-item">
                         <span class="home-logo"></span>
-                        <div class="home-item-title">
+                        <a href="detail.html" class="home-item-title">
                             <span>xxx巴林石</span><span class="mt-message-time">6分钟前</span>
                             <div>
                                 <p>
@@ -595,13 +219,13 @@
                                     “中国四大印石”
                                 </p>
                             </div>
-                        </div>
+                        </a>
                         <div class="reply-fun">
-                            <div class="message-reply">
+                            <div class="message-reply message-item-read">
                                 <span class="reply-read"></span>
                                 <span>标记已读</span>
                             </div>
-                            <div class="message-reply">
+                            <div class="message-reply message-item-del">
                                 <span class="reply-del"></span>
                                 <span>删除</span>
                             </div>
@@ -611,7 +235,7 @@
                 <div class="tab-pane" id="my-message-sys">
                     <div class="my-message-item">
                         <span class="home-logo"></span>
-                        <div class="home-item-title">
+                        <a href="detail.html" class="home-item-title">
                             <span>xxx巴林石</span><span class="mt-message-time">2分钟前</span>
                             <div>
                                 <p>
@@ -620,13 +244,13 @@
                                     “中国四大印石”
                                 </p>
                             </div>
-                        </div>
+                        </a>
                         <div class="reply-fun">
-                            <div class="message-reply">
+                            <div class="message-reply message-item-read">
                                 <span class="reply-read"></span>
                                 <span>标记已读</span>
                             </div>
-                            <div class="message-reply">
+                            <div class="message-reply message-item-del">
                                 <span class="reply-del"></span>
                                 <span>删除</span>
                             </div>
@@ -636,7 +260,7 @@
                 <div class="tab-pane" id="my-message-sms">
                     <div class="my-message-item">
                         <span class="home-logo"></span>
-                        <div class="home-item-title">
+                        <a href="detail.html" class="home-item-title">
                             <span>xxx巴林石</span><span class="mt-message-time">7分钟前</span>
                             <div>
                                 <p>
@@ -645,13 +269,13 @@
                                     “中国四大印石”
                                 </p>
                             </div>
-                        </div>
+                        </a>
                         <div class="reply-fun">
-                            <div class="message-reply">
+                            <div class="message-reply message-item-read">
                                 <span class="reply-read"></span>
                                 <span>标记已读</span>
                             </div>
-                            <div class="message-reply">
+                            <div class="message-reply message-item-del">
                                 <span class="reply-del"></span>
                                 <span>删除</span>
                             </div>
@@ -661,7 +285,7 @@
                 <div class="tab-pane" id="my-message-keep">
                     <div class="my-message-item">
                         <span class="home-logo"></span>
-                        <div class="home-item-title">
+                        <a href="detail.html" class="home-item-title">
                             <span>xxx巴林石</span><span class="mt-message-time">8分钟前</span>
                             <div>
                                 <p>
@@ -670,13 +294,13 @@
                                     “中国四大印石”
                                 </p>
                             </div>
-                        </div>
+                        </a>
                         <div class="reply-fun">
-                            <div class="message-reply">
+                            <div class="message-reply message-item-read">
                                 <span class="reply-read"></span>
                                 <span>标记已读</span>
                             </div>
-                            <div class="message-reply">
+                            <div class="message-reply message-item-del">
                                 <span class="reply-del"></span>
                                 <span>删除</span>
                             </div>
@@ -686,7 +310,7 @@
                 <div class="tab-pane" id="my-message-at">
                     <div class="my-message-item">
                         <span class="home-logo"></span>
-                        <div class="home-item-title">
+                        <a href="detail.html" class="home-item-title">
                             <span>xxx巴林石</span><span class="mt-message-time">9分钟前</span>
                             <div>
                                 <p>
@@ -695,13 +319,13 @@
                                     “中国四大印石”
                                 </p>
                             </div>
-                        </div>
+                        </a>
                         <div class="reply-fun">
-                            <div class="message-reply">
+                            <div class="message-reply message-item-read">
                                 <span class="reply-read"></span>
                                 <span>标记已读</span>
                             </div>
-                            <div class="message-reply">
+                            <div class="message-reply message-item-del">
                                 <span class="reply-del"></span>
                                 <span>删除</span>
                             </div>
@@ -711,7 +335,7 @@
                 <div class="tab-pane" id="my-message-other">
                     <div class="my-message-item">
                         <span class="home-logo"></span>
-                        <div class="home-item-title">
+                        <a href="detail.html" class="home-item-title">
                             <span>xxx巴林石</span><span class="mt-message-time">10分钟前</span>
                             <div>
                                 <p>
@@ -720,124 +344,29 @@
                                     “中国四大印石”
                                 </p>
                             </div>
-                        </div>
+                        </a>
                         <div class="reply-fun">
-                            <div class="message-reply">
+                            <div class="message-reply message-item-read">
                                 <span class="reply-read"></span>
                                 <span>标记已读</span>
                             </div>
-                            <div class="message-reply">
+                            <div class="message-reply message-item-del">
                                 <span class="reply-del"></span>
                                 <span>删除</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane" id="my-score-score">
-                    <div class="my-score-item">
-                        <div class="my-score-head">
-                            <span>用户组:&nbsp;</span>
-                            <span>英勇黄铜V</span>
-                        </div>
-                        <div class="my-score-group">
-                            <div>
-                                <span class="score-jy"></span>
-                                <span class="score-group-name">经验</span>
-                            </div>
-                            <p class="score-jy-val">100</p>
-                        </div>
-                        <div class="my-score-group">
-                            <div>
-                                <span class="score-gold"></span>
-                                <span class="score-group-name">金币</span>
-                            </div>
-                            <p class="score-jy-val">100</p>
-                        </div>
-                        <div class="my-score-group">
-                            <div>
-                                <span class="score-rmb"></span>
-                                <span class="score-group-name">人民币</span>
-                            </div>
-                            <p class="score-jy-val">100</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane" id="my-score-deal">
-                    <div class="deal-wrap">
-                        <p class="deal-title">兑换</p>
-                        <div class="deal-hint">
-                            支持<span>人民币（单位:&nbsp;分）</span>, 兑换为<span>金币</span>。</span>
-                        </div>
-                        <div class="deal-intro">
-                            <input type="text" placeholder="金币" />
-                        </div>
-                        <div class="deal-total">
-                            兑换<span>0</span>金币, 需要消耗<span>0</span>人民币</span>
-                        </div>
-                        <div class="deal-btn">兑换</div>
-                    </div>
-                </div>
-                <div class="tab-pane" id="my-score-record">
-                    <table class="table">
-                        <thead>
-                        <tr class="score-record">
-                            <th>时间</th>
-                            <th>类型</th>
-                            <th>积分</th>
-                            <th>记录</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>2018-09-2</td>
-                            <td>......</td>
-                            <td>12</td>
-                            <td>..</td>
-                        </tr>
-                        <tr>
-                            <td>2018-09-3</td>
-                            <td>......</td>
-                            <td>12</td>
-                            <td>.......</td>
-                        </tr>
-                        <tr>
-                            <td>2018-09-2</td>
-                            <td>..</td>
-                            <td>12</td>
-                            <td>...</td>
-                        </tr>
-                        <tr>
-                            <td>2018-09-3</td>
-                            <td>......</td>
-                            <td>12</td>
-                            <td>.......</td>
-                        </tr>
-                        <tr>
-                            <td>2018-09-2</td>
-                            <td>..</td>
-                            <td>12</td>
-                            <td>...</td>
-                        </tr>
-                        <tr>
-                            <td>2018-09-3</td>
-                            <td>......</td>
-                            <td>12</td>
-                            <td>.......</td>
-                        </tr>
-                        <tr>
-                            <td>2018-09-2</td>
-                            <td>..</td>
-                            <td>12</td>
-                            <td>...</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
             </div>
         </div>
     </div>
 </div>
-<footer></footer>
+<footer>
+    <div id="footer">
+        <div>Powered by Xiuno BBS4.0.4	巴林右旗巴林石矿业有限公司</div>
+        <div>ICP备案号：蒙ICP备18004169号-1</div>
+    </div>
+</footer>
 </body>
 <script type="text/javascript" src="../js/jquery.min.js"></script>
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>

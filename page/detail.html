@@ -38,10 +38,10 @@
                 <li><a href="notice.html">论坛公告</a></li>
             </ul>
             <div class="nav-user col-md-3 text-center" >
-                <div class="no-log"><a  href="#"><span class="log-user"></span>登录</a></div>
+                <div class="no-log"><a  href="login.html"><span class="log-user"></span>登录</a></div>
                 <div class="log">
                     <a href="message.html"><span class="log-message"></span>消息</a>
-                    <a href="#"><span class="log-user"></span>巴林石</a>
+                    <a href="user-page.html"><span class="log-user"></span>巴林石</a>
                     <a href="#"><span class="log-out"></span>退出</a>
                 </div>
             </div>
@@ -79,9 +79,9 @@
                         <div class="home-child-content">
                             <p>即日起，最美巴林石论坛上线，广大石友可以再次谈石论道</p>
                             <img src="../img/child-img.png" />
-                            <div class="home-child-save" data-toggle="modal" data-target="#myhouse">
+                            <div class="home-child-save" data-toggle="modal" data-target="#save-house">
                                 <span class="laud"></span>
-                                <span>收藏</span>90
+                                <span id="detail-save">收藏</span>90
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                         <ul class="reply-list">
                             <li class="reply-item">
                                 <div>
-                                    <span class="home-logo"></span>
+                                    <span class="home-logo" data-toggle="modal" data-target="#send-letter"></span>
                                     <div class="reply-info">
                                         <p class="reply-name">xxx巴林石[楼主]</p>
                                         <p class="reply-time">发表十分钟之前</p>
@@ -103,13 +103,13 @@
                                     </div>
                                     <div class="reply-fun">
                                         <a href="reply-edit.html" class="reply-edit"></a>
-                                        <span class="reply-del"></span>
+                                        <span class="reply-del detail-del"></span>
                                     </div>
                                 </div>
                             </li>
                             <li class="reply-item">
                                 <div>
-                                    <span class="home-logo"></span>
+                                    <span class="home-logo" data-toggle="modal" data-target="#send-letter"></span>
                                     <div class="reply-info">
                                         <p class="reply-name">xxx巴林石[楼主]</p>
                                         <p class="reply-time">发表十分钟之前</p>
@@ -117,13 +117,13 @@
                                     </div>
                                     <div class="reply-fun">
                                         <a href="reply-edit.html" class="reply-edit"></a>
-                                        <span class="reply-del"></span>
+                                        <span class="reply-del detail-del"></span>
                                     </div>
                                 </div>
                             </li>
                             <li class="reply-item">
                                 <div>
-                                    <span class="home-logo"></span>
+                                    <span class="home-logo" data-toggle="modal" data-target="#send-letter"></span>
                                     <div class="reply-info">
                                         <p class="reply-name">xxx巴林石[楼主]</p>
                                         <p class="reply-time">发表十分钟之前</p>
@@ -131,13 +131,13 @@
                                     </div>
                                     <div class="reply-fun">
                                         <a href="reply-edit.html" class="reply-edit"></a>
-                                        <span class="reply-del"></span>
+                                        <span class="reply-del detail-del"></span>
                                     </div>
                                 </div>
                             </li>
                             <li class="reply-item">
                                 <div>
-                                    <span class="home-logo"></span>
+                                    <span class="home-logo" data-toggle="modal" data-target="#send-letter"></span>
                                     <div class="reply-info">
                                         <p class="reply-name">xxx巴林石[楼主]</p>
                                         <p class="reply-time">发表十分钟之前</p>
@@ -145,13 +145,13 @@
                                     </div>
                                     <div class="reply-fun">
                                         <a href="reply-edit.html" class="reply-edit"></a>
-                                        <span class="reply-del"></span>
+                                        <span class="reply-del detail-del"></span>
                                     </div>
                                 </div>
                             </li>
                             <li class="reply-item">
                                 <div>
-                                    <span class="home-logo"></span>
+                                    <span class="home-logo" data-toggle="modal" data-target="#send-letter"></span>
                                     <div class="reply-info">
                                         <p class="reply-name">xxx巴林石[楼主]</p>
                                         <p class="reply-time">发表十分钟之前</p>
@@ -159,13 +159,13 @@
                                     </div>
                                     <div class="reply-fun">
                                         <a href="reply-edit.html" class="reply-edit"></a>
-                                        <span class="reply-del"></span>
+                                        <span class="reply-del detail-del"></span>
                                     </div>
                                 </div>
                             </li>
                             <li class="reply-item">
                                 <div>
-                                    <span class="home-logo"></span>
+                                    <span class="home-logo" data-toggle="modal" data-target="#send-letter"></span>
                                     <div class="reply-info">
                                         <p class="reply-name">xxx巴林石[楼主]</p>
                                         <p class="reply-time">发表十分钟之前</p>
@@ -173,7 +173,7 @@
                                     </div>
                                     <div class="reply-fun">
                                         <a href="reply-edit.html" class="reply-edit"></a>
-                                        <span class="reply-del"></span>
+                                        <span class="reply-del detail-del"></span>
                                     </div>
                                 </div>
                             </li>
@@ -183,7 +183,7 @@
                 <div class="home-child-r">
                     <div class="home-search" role="search">
                         <input type="text" class="form-control" placeholder="关键词">
-                        <div class="home-right-search"><span class="search-icon"></span></div>
+                        <a href="result.html" class="home-right-search"><span class="search-icon"></span></a>
                     </div>
                     <div class="forum-show">
                         <p class="forum-show-title">巴林石论坛</p>
@@ -222,22 +222,39 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="myhouse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="save-house" tabindex="-1" role="dialog" aria-labelledby="save-title">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <p class="modal-title" id="myModalLabel">帖子收藏提示</p>
+                    <p class="modal-title" id="save-title">帖子收藏提示</p>
                     <div>登陆后才可以收藏帖子！点击<a href="#" class="house-btn">确定</a>登录</div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">确定</button>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn modal-sure">确定</button>
+                    <button type="button" class="btn modal-cancel" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="send-letter" tabindex="-1" role="dialog" aria-labelledby="send-title">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="modal-title" id="send-title">给<span>xxx朋友</span>&nbsp;发私信</div>
+                    <textarea>倾斜细心内容</textarea>
+                    <button type="button" class="btn modal-send" data-dismiss="modal">发送</button>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<footer></footer>
+<footer>
+    <div id="footer">
+        <div>Powered by Xiuno BBS4.0.4	巴林右旗巴林石矿业有限公司</div>
+        <div>ICP备案号：蒙ICP备18004169号-1</div>
+    </div>
+</footer>
 </body>
 <script type="text/javascript" src="../js/jquery.min.js"></script>
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>

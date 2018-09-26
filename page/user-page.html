@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>巴林论坛 - 消息</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" src="../js/rem.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" >
+    <link rel="icon" sizes="any" href="//www.baidu.com/img/baidu_85beaf5496f291521eb75ba38eacbd87.svg">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="col-md-1"></div>
+        <div class="navbar-header" >
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html">
+                <span class="forum-icon"></span>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="stone-info.html">时石资讯</a></li>
+                <li><a href="taste.html">品味巴林</a></li>
+                <li><a href="culture.html">巴林文化</a></li>
+                <li><a href="talk.html">谈石论到</a></li>
+                <li><a href="carve.html">雕刻篆刻</a></li>
+                <li><a href="navice.html">新手交流</a></li>
+                <li><a href="complaint.html">投诉建议</a></li>
+                <li><a href="notice.html">论坛公告</a></li>
+            </ul>
+            <div class="nav-user col-md-3 text-center" >
+                <div class="no-log"><a  href="login.html"><span class="log-user"></span>登录</a></div>
+                <div class="log">
+                    <a class="" href="message.html"><span class="log-message"></span>消息</a>
+                    <a class="log-active" href="user-page.html"><span class="log-user log-user-active"></span>巴林石</a>
+                    <a href="#"><span class="log-out"></span>退出</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="message">
+    <div class="message-bj"></div>
+    <div id="container">
+        <div class="message-top">
+            <div class="message-nav">
+                <div class="message-nav-bg"><img src="../img/message-nav-bg.png" /></div>
+                <div class="message-user">
+                    <div class="message-user-img"></div>
+                    <span class="message-img-add"></span>
+                    <p>xxx巴林石</p>
+                </div>
+            </div>
+        </div>
+        <div class="message-top-list">
+            <div class="home-nav-item home-nav-active">
+                <a href="#my-info" data-toggle="tab">个人资料</a>
+            </div>
+            <div class="home-nav-item">
+                <a href="message-forum.html">论坛帖子</a>
+            </div>
+            <div class="home-nav-item">
+                <a href="message.html">消息</a>
+            </div>
+            <div class="home-nav-item">
+                <a href="message-score.html">积分</a>
+            </div>
+        </div>
+        <div class="message-content">
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane in active" id="my-info">
+                    <div class="home-nav-item message-nav-active">
+                        <a href="#my-info-basic" data-toggle="tab">基本资料</a>
+                    </div>
+                    <div class="home-nav-item">
+                        <a href="#my-info-pass" data-toggle="tab">密码</a>
+                    </div>
+                    <div class="home-nav-item">
+                        <a href="#my-info-email" data-toggle="tab">邮箱</a>
+                    </div>
+                </div>
+            </div>
+            <div id="my-content" class="my-content tab-content">
+                <div class="tab-pane in active" id="my-info-basic">
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <td>主题数：<span>0</span></td>
+                            <td>用户组：<span>0</span></td>
+                        </tr>
+                        <tr>
+                            <td>帖子数：<span>01</span></td>
+                            <td>创建时间：<span>2018-08-30</span></td>
+                        </tr>
+                        <tr>
+                            <td>收藏数：<span>10</span></td>
+                            <td>最后登录时间：<span>2018-9-1</span></td>
+                        </tr>
+                        <tr>
+                            <td>精华数：<span>1</span></td>
+                            <td>邮箱：<span>122345689@163.com</span></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane" id="my-info-pass">
+                    <div class="change-pass">
+                        <div class="change-item">
+                            <span class="pass-icon"></span>
+                            <input type="password" placeholder="旧密码" />
+                        </div>
+                        <div class="change-item">
+                            <span class="pass-icon"></span>
+                            <input type="password" placeholder="新密码" />
+                        </div>
+                        <div class="change-item">
+                            <span class="pass-icon"></span>
+                            <input type="password" placeholder="重复新密码" />
+                        </div>
+                    </div>
+                    <div class="btn change-pass-btn">修改密码</div>
+                </div>
+                <div class="tab-pane" id="my-info-email">
+                    <div class="change-pass set-email">
+                        <div class="change-item">
+                            <span class="pass-icon"></span>
+                            <input type="password" placeholder="123456879@163.com" />
+                        </div>
+                        <div class="change-item">
+                            <span class="pass-icon"></span>
+                            <input type="password" placeholder="未认证" />
+                        </div>
+                    </div>
+                    <div class="btn set-email-btn">设置邮箱</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div id="footer">
+        <div>Powered by Xiuno BBS4.0.4	巴林右旗巴林石矿业有限公司</div>
+        <div>ICP备案号：蒙ICP备18004169号-1</div>
+    </div>
+</footer>
+</body>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+</html>
