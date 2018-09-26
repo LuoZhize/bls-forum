@@ -2,40 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a2516fe-fcde-409d-b4a8-e1272927ff69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/email-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/laud-no.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/log-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/log-message-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/log-user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logout-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/read-on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/user-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/v-code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/message-forum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/message-score.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/user-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/laud.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/laud.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/nav-message.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/nav-message.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/read.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/read-off.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/carve.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/carve.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/complaint.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/complaint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/culture.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/culture.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/message.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/navice.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/navice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/notice.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/notice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/reply-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/reply-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/send-posy.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/send-posy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/stone-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/stone-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/talk.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/talk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/taste.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/taste.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/log-message.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/log-message.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -94,7 +64,7 @@
           <entry key="hosts" value="4" />
           <entry key="html" value="7251" />
           <entry key="js" value="3601" />
-          <entry key="less" value="11871" />
+          <entry key="less" value="11884" />
           <entry key="php" value="2" />
         </counts>
       </usages-collector>
@@ -102,7 +72,7 @@
         <counts>
           <entry key="HTML" value="7251" />
           <entry key="JavaScript" value="3601" />
-          <entry key="Less" value="11871" />
+          <entry key="Less" value="11884" />
           <entry key="PHP" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
@@ -171,7 +141,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding>
                 <element signature="n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -181,20 +151,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="739">
+              <caret line="73" column="26" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="462" column="7" lean-forward="true" selection-start-line="462" selection-start-column="7" selection-end-line="462" selection-end-column="7" />
+            <state relative-caret-position="661">
+              <caret line="648" column="5" lean-forward="true" selection-start-line="648" selection-start-column="5" selection-end-line="648" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -230,7 +200,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reply-list</find>
       <find>CDE8F4</find>
       <find>place</find>
       <find>send</find>
@@ -256,10 +225,11 @@
       <find>home-nav-item</find>
       <find>reply-del</find>
       <find>reply-del-name</find>
-      <find>reply-fun</find>
       <find>home-item-title</find>
       <find>my-messa</find>
       <find>my-score</find>
+      <find>forum-sh</find>
+      <find>reply-fun</find>
     </findStrings>
     <replaceStrings>
       <replace>edit.html</replace>
@@ -317,7 +287,7 @@
       <path value="$PROJECT_DIR$/ueditor/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -341,11 +311,6 @@
               <item name="bls-forum" type="b2602c69:ProjectViewProjectNode" />
               <item name="bls-forum" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bls-forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bls-forum" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -407,12 +372,12 @@
       <workItem from="1537516104922" duration="295000" />
       <workItem from="1537609717005" duration="15571000" />
       <workItem from="1537839063489" duration="26214000" />
-      <workItem from="1537923782243" duration="20377000" />
+      <workItem from="1537923782243" duration="22186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164719000" />
+    <option name="totallyTimeSpent" value="166528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -430,7 +395,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32790446" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -605,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding>
             <element signature="n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -637,13 +602,6 @@
             <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -700,8 +658,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="462" column="7" lean-forward="true" selection-start-line="462" selection-start-column="7" selection-end-line="462" selection-end-column="7" />
+        <state relative-caret-position="661">
+          <caret line="648" column="5" lean-forward="true" selection-start-line="648" selection-start-column="5" selection-end-line="648" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="73" column="26" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
         </state>
       </provider>
     </entry>
